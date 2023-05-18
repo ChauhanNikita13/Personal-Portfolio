@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="img/pngtree-vector-portfolio-icon-png-image_711172.jpg" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d2a4988a10.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <main>
+        <nav class="navbar">
+            <h1>Nikita Chauhan Portfolio</h1>
+            <div class="navigationmenu">
+                <a href="#aboutme">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contactform">Let's Connect!</a>
+            </div>
+        </nav>
+        <section class="herosection">
+            <img class="profileimage" src="img/Photo-removebg-preview.png" alt="ProfilePicture">
+            <div class="herosectiondetails">
+                <h1>Nikita Chauhan</h1>
+                <h3>Fullstack Web Developer</h3>
+            </div>
+        </section>
+        <section class="aboutme" id="aboutme">
+            <h1>What I Do</h1>
+            <p>Hey! This is Nikita, final year Electrical and Electronics student at Banasthali University with a
+                passion for Web Development. Through my coursework and Training, I have gained experience in programming
+                languages such as C, C++ and Python. I have also been a part of several team projects, working on
+                software development, and have good knowledge of algorithms and data structures. I have also been
+                actively pursuing my persnonal projects in my free time and have good experience on working with NodeJs,
+                React and MongoDB.In addition to my academic pursuits, I am currently working as a Project Intern at
+                IRDE DRDO Dehradun. In this role, I am involved in computer vision projects using MATLAB. I have been
+                gaining practical experience in image processing, object detection, and other computer vision
+                techniques. In my free time, I enjoy participating in hackathons and coding competitions, and I am
+                always looking for new opportunities to learn and grow in the field of techonology. Check out my few
+                projects here on this platform and do reach out to me with feedbacks and suggestions. I enjoy connecting
+                with people and I am open to interesting work offers form clints.</p>
+        </section>
+        <section class="skillsandprojects">
+            <div class="skills" id="skills">
+                <h1 class="cardheading">Skills</h1>
+                <img src="/img/cpp3-svgrepo-com.svg" title="C++" alt="C++">
+                <img src="/img/html-svgrepo-com.svg" title="HTML" alt="HTML">
+                <img src="/img/css-svgrepo-com.svg" alt="CSS" title="CSS">
+                <img src="/img/javascript-svgrepo-com.svg" alt="JS" title="Java script">
+                <img src="/img/nodejs-logo-svgrepo-com.svg" alt="Node JS" title="Node JS">
+                <img src="/img/php-svgrepo-com.svg" alt="PHP" title="PHP">
+            </div>
+            <div class="projects" id="projects">
+                <h1 class="cardheading">Projects</h1>
+                <div class="projectdiscription">
+                    <h4>PG Life</h4>
+                    <p>Made a website called PG life by Internshala Training. The technologies used in this project was
+                        HTML|CSS|JS|Bootstrap|Node JS|React|PHP|DBMS.</p>
+                </div>
+                <div class="projectdiscription">
+                    <h4>Power Quality Improvement</h4>
+                    <p>The overall system was designed and developed using MATLAB/Simulink software. The harmonics
+                        present in the proposed system was efficiently eliminated using SAPF.</p>
+                </div>
+                <div class="projectdiscription">
+                    <h4>SPY Robotics</h4>
+                    <p>Made a voice controlled spy robot with webcam fixed in it(used the concept of IOT and AI) which
+                        can be controlledwith voice. Arduino platform was used.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contactform" id="contactform">
+            <h1>Let's Connect</h1>
+            <div class="formgroup">
+                <label for="name">Full Name</label><br>
+                <input type="text" id="name" placeholder="Full Name">
+            </div>
+            <div class="formgroup">
+                <label for="Email">E-mail</label><br>
+                <input type="text" id="mail" placeholder="Email">
+            </div>
+            <div class="formgroup">
+                <label for="Message">Message</label><br>
+                <textarea placeholder="send some message" name="review" id="message" cols="50" rows="4"></textarea>
+            </div>
+            <button class="submitbutton" onClick={submit()}>connect</button>
+            <br>
+            <br>
+            <div class="social">
+                <a class="links" href="https://www.linkedin.com/in/nikita-chauhan-b1819719a/" target="_blank"><i
+                        class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a class="links" href="https://www.instagram.com/_.nikita13/" target="_blank"><i
+                        class="fa-brands fa-square-instagram fa-2xl"></i></a>
+                <a class="links" href="mailto: chauhannikita144@gmail.com" target="_blank"><i
+                        class="fa-sharp fa-solid fa-envelope fa-2xl"></i></a>
+                <a class="links" href="https://github.com/ChauhanNikita13" target="_blank"><i
+                        class="fa-brands fa-github fa-2xl"></i></a>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
